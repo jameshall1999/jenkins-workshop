@@ -80,6 +80,8 @@ Test: `./dockertest.sh`
 
 * Create a Heroku app
 
+* Set the stack of your app to container `heroku stack:set container`
+
 * Connect the app to your Git repository
 
 * Create a deploy key
@@ -107,4 +109,6 @@ Test: `./dockertest.sh`
 * https://itnext.io/docker-in-docker-521958d34efd
 
 * https://www.cloudbees.com/blog/getting-started-blue-ocean
+
+* https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
 
