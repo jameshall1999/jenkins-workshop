@@ -10,7 +10,7 @@ You will need [Docker](https://docs.docker.com/get-docker/) and [Docker Compose]
 
 ## Preparation
 
-Fork https://github.com/StephenThomson/jenkins-workshop to your GitHub account, clone your fork. to your machine and `cd jenkins-workshop`.
+Fork https://github.com/WillGibson/jenkins-workshop to your GitHub account, clone your fork. to your machine and `cd jenkins-workshop`.
 
 ## Sample App
 
@@ -73,6 +73,22 @@ Test: `./dockertest.sh`
   * Uncheck "Lightweight checkout"
 
 * Click "Save"
+
+## Deploying to Heroku
+
+* (Create a Heroku account](https://signup.heroku.com/login)
+
+* Create a Heroku app
+
+* Connect the app to your Git repository
+
+* Create a deploy key
+
+  * `cd .ssh`
+  * `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+  * `cd ../`
+  
+* Add the deploy key to you GitHub repo with write access
 
 ### Useful commands
 
