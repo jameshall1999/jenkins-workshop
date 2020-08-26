@@ -8,6 +8,10 @@ You will need [Docker](https://docs.docker.com/get-docker/) and [Docker Compose]
 
     docker -v && docker-compose -v 
 
+## Preparation
+
+Fork https://github.com/StephenThomson/jenkins-workshop to your GitHub account, clone your fork. to your machine and `cd jenkins-workshop`.
+
 ## Sample App
 
 A hacked together Flask API in a docker container
@@ -42,7 +46,7 @@ Test: `./dockertest.sh`
 
   * Check "Do not allow concurrent builds"
 
-  * Check "GitHub project" and enter the URL "https://github.com/StephenThomson/flask-docker"
+  * Check "GitHub project" and enter the URL "https://github.com/<your_github_username>/jenkins-workshop"
   
   * Check "This project is parameterised"
   
@@ -62,7 +66,7 @@ Test: `./dockertest.sh`
 
   * Select "Pipeline script from SCM" (Source Code Management)
   
-  * Enter the repository URL "https://github.com/StephenThomson/flask-docker"
+  * Enter the repository URL "https://github.com/<your_github_username>/jenkins-workshop"
   
   * Delete the "Branch Specifier" (so it can build any branch based on the branch parameter)
   
