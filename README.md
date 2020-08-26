@@ -78,7 +78,7 @@ Test: `./dockertest.sh`
 
 * Log into the jenkins container `docker exec -it jenkins_workshop /bin/bash`
 
-* Run the Jenkins container in the background `docker-compose up`
+* Run the Jenkins container in the background `docker-compose up -d`
 
 * Stop the Jenkins container if you ran it in the background `docker-compose down`
 
@@ -89,4 +89,6 @@ Test: `./dockertest.sh`
 * https://www.jenkins.io/doc/book/pipeline/jenkinsfile/
 
 * https://itnext.io/docker-in-docker-521958d34efd
+
+* https://www.cloudbees.com/blog/getting-started-blue-ocean
 
